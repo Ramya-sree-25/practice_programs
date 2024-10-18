@@ -1,0 +1,10 @@
+t=int(input("enter the size "))
+for i in range(t):
+    d=''
+    p=input("enter the dict order ")
+    s=input('enter the string you want to be sorted: ')
+    for i in p:
+        if i in s:
+            d=d+i
+    print(d)
+      
